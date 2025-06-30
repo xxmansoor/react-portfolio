@@ -26,11 +26,11 @@ const Skills = () => {
         <h1 className="text-center text-2xl font-bold text-white">Pro Skills</h1>
         <h3 className="text-center text-4xl font-bold text-white mb-10">Let’s Explore My Skills</h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-xl shadow-md p-4 text-center"
+              className="bg-white border border-gray-200 rounded-xl shadow-md p-4 text-center hover:scale-110 transition-transform duration-300"
             >
               <img
                 src={skill.logo}
